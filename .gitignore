@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/IdentityServer4/.vs/IdentityServer/v16
+/IdentityServer4/src/Api/bin/Debug/netcoreapp3.0
+/IdentityServer4/src/Api/obj/Debug
+/IdentityServer4/src/Api/obj/Release
+/IdentityServer4/src/Api/obj
+/IdentityServer4/src/Client/obj
+/IdentityServer4/src/IdentityServer/bin/Debug/netcoreapp3.0/Properties
+/IdentityServer4/src/IdentityServer/obj/Debug
+/IdentityServer4/src/IdentityServer/obj/Release
+/IdentityServer4/src/IdentityServer/obj
+/IdentityServer4/src/MvcClient/bin/Debug/netcoreapp3.0
+/IdentityServer4/src/MvcClient/obj
