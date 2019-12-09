@@ -8,6 +8,7 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
 using System;
+using Microsoft.Extensions.Configuration;
 
 namespace IdentityServer
 {
@@ -23,6 +24,10 @@ namespace IdentityServer
         public static IWebHostBuilder CreateWebHostBuilder(string[] args)
         {
             return WebHost.CreateDefaultBuilder(args)
+                    .ConfigureAppConfiguration((hostingContext, config) =>
+                        {
+                            config.AddJsonFile("appsettings.json", false, false);
+                        })
                     .UseStartup<Startup>()
                     .UseSerilog((context, configuration) =>
                     {
