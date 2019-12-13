@@ -16,3 +16,7 @@
 /IdentityServer4/src/MvcClient/bin/Debug/netcoreapp3.0
 /IdentityServer4/src/MvcClient/obj
 /IdentityServer4/.vs/IdentityServer/DesignTimeBuild
+/IdentityServer4/src/Api/bin/Debug/netcoreapp3.1
+/IdentityServer4/src/Client/bin/Debug/netcoreapp3.1
+/IdentityServer4/src/IdentityServer/bin/Debug/netcoreapp3.1
+/IdentityServer4/src/MvcClient/bin/Debug/netcoreapp3.1
